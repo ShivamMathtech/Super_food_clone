@@ -20,9 +20,9 @@ header .nav-link {
 header .nav-link:hover {
   color: #fff;
 }
-.content-1 {
+/* .content-1 {
   height: calc(100vh - 70px);
-}
+} */
 .mybtn {
   width: 170px;
   height: 45px;
@@ -39,7 +39,56 @@ header .nav-link:hover {
   color: white;
   font-weight: 700;
 }
-.img-box {
+.img-box-1 {
+  width: 100%;
+  height: 80%;
+}
+.page-2 {
+  background-color: #f7f5f2;
+}
+.img-box-1 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+.text-box {
+  text-align: right;
+}
+.page-3 {
+  background-color: #fff;
+}
+.tbox-3 {
+  width: 50%;
+}
+.tbox-3 h2 {
+  font-weight: 600;
+}
+.img-box-2 {
+  width: 250px;
+  height: 250px;
+}
+.img-box-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner {
+  height: 30vh;
+  background-image: linear-gradient(to right top, #4c3f69 0%, #fbc2eb 100%);
+}
+.banner span {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+.blog {
+  height: 70vh;
+  background-color: #f6f5f1;
+}
+.text-box4 {
+  height: 50vh;
+  width: 80%;
+}
+.text-box4 h2 {
+  font-weight: 600;
 }
